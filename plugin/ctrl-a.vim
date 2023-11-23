@@ -1,1 +1,1 @@
-lua vim.keymap.set({'i', 'n', 'v', 'x'}, '<C-a>', function() vim.cmd(':goto') vim.cmd(':visual') vim.cmd(':$') end)
+lua vim.keymap.set({'i', 'n', 'v', 'x'}, '<C-a>', function() vim.cmd('call feedkeys("ggVG")') end)
